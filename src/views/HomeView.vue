@@ -13,7 +13,7 @@ const heroSectionProps = ref({
   title: 'Luiz Trindade',
   description: 'Desenvolvedor Full Stack com experiência em Vue.js, Node.js e outras tecnologias modernas. Apaixonado por criar soluções inovadoras, eficientes e escaláveis para a web.',
   backgroundImage: 'https://wallpaperaccess.com/full/314785.jpg',
-  profileImage: 'public/profile_picture.png'
+  profileImage: '../public/profile_picture.png'
 });
 </script>
 
