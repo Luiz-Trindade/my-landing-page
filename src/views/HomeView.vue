@@ -9,13 +9,17 @@ import AboutMe from '@/components/AboutMe.vue';
 import DepoimentsSection from '@/components/DepoimentsSection.vue';
 import CTA from '@/components/CTA.vue';
 
+// Importando a imagem diretamente
+import profilePicture from '@/assets/profile_picture.png';
+
 const heroSectionProps = ref({
   title: 'Luiz Trindade',
   description: 'Desenvolvedor Full Stack com experiência em Vue.js, Node.js e outras tecnologias modernas. Apaixonado por criar soluções inovadoras, eficientes e escaláveis para a web.',
   backgroundImage: 'https://wallpaperaccess.com/full/314785.jpg',
-  profileImage: new URL('@/assets/profile_picture.png', import.meta.url).href
+  profileImage: profilePicture
 });
 </script>
+
 
 <template>
   <div class="space-y-8">
