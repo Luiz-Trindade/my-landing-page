@@ -25,19 +25,21 @@ const stacks = [
 
 const services = [
     { id: 1, name: 'Landing Page', icon: '🌐', stacks: ['vue', 'javascript', 'nuxt'], price: 1500, category: 'Web' },
-    { id: 2, name: 'Aplicação Web Completa', icon: '💻', stacks: ['vue', 'nuxt', 'vuetify', 'javascript', 'python', 'fastapi', 'postgresql', 'docker'], price: 5000, category: 'Web' },
-    { id: 3, name: 'API REST', icon: '🔌', stacks: ['python', 'fastapi', 'postgresql', 'redis', 'docker'], price: 3000, category: 'Backend' },
-    { id: 4, name: 'API Go (Alta Performance)', icon: '⚡', stacks: ['go', 'postgresql', 'redis', 'docker'], price: 4000, category: 'Backend' },
+    { id: 2, name: 'Aplicação Web Completa', icon: '💻', stacks: ['vue', 'nuxt', 'vuetify', 'javascript', 'python', 'fastapi', 'postgresql', 'mysql', 'docker'], price: 5000, category: 'Web' },
+    { id: 3, name: 'API REST', icon: '🔌', stacks: ['python', 'fastapi', 'postgresql', 'mysql', 'redis', 'docker'], price: 3000, category: 'Backend' },
+    { id: 4, name: 'API Go (Alta Performance)', icon: '⚡', stacks: ['go', 'postgresql', 'mysql', 'redis', 'docker'], price: 4000, category: 'Backend' },
     { id: 5, name: 'App Android', icon: '📱', stacks: ['ionic', 'capacitor', 'vue', 'javascript', 'android'], price: 4500, category: 'Mobile' },
     { id: 6, name: 'App Cross-Platform', icon: '📲', stacks: ['ionic', 'capacitor', 'vue', 'javascript', 'android'], price: 5000, category: 'Mobile' },
-    { id: 7, name: 'E-commerce', icon: '🛒', stacks: ['vue', 'nuxt', 'vuetify', 'python', 'fastapi', 'postgresql', 'redis', 'docker', 'nginx'], price: 5000, category: 'Web' },
-    { id: 8, name: 'Dashboard Administrativo', icon: '📊', stacks: ['vue', 'nuxt', 'vuetify', 'javascript', 'python', 'fastapi', 'postgresql'], price: 4000, category: 'Web' },
-    { id: 9, name: 'Microserviços', icon: '🏗️', stacks: ['python', 'fastapi', 'go', 'docker', 'redis', 'postgresql', 'nginx', 'linux'], price: 5000, category: 'Backend' },
+    { id: 7, name: 'E-commerce', icon: '🛒', stacks: ['vue', 'nuxt', 'vuetify', 'python', 'fastapi', 'postgresql', 'mysql', 'redis', 'docker', 'nginx'], price: 5000, category: 'Web' },
+    { id: 8, name: 'Dashboard Administrativo', icon: '📊', stacks: ['vue', 'nuxt', 'vuetify', 'javascript', 'python', 'fastapi', 'postgresql', 'mysql'], price: 4000, category: 'Web' },
+    { id: 9, name: 'Microserviços', icon: '🏗️', stacks: ['python', 'fastapi', 'go', 'docker', 'redis', 'postgresql', 'mysql', 'nginx', 'linux'], price: 5000, category: 'Backend' },
     { id: 10, name: 'Deploy e Infraestrutura', icon: '🚀', stacks: ['docker', 'linux', 'nginx', 'github'], price: 2000, category: 'DevOps' },
-    { id: 11, name: 'Chatbot com IA', icon: '🤖', stacks: ['python', 'fastapi', 'redis', 'postgresql', 'docker'], price: 4000, category: 'AI' },
-    { id: 12, name: 'CMS Personalizado', icon: '📝', stacks: ['vue', 'nuxt', 'vuetify', 'python', 'fastapi', 'postgresql', 'docker'], price: 4500, category: 'Web' },
+    { id: 11, name: 'Chatbot com IA', icon: '🤖', stacks: ['python', 'fastapi', 'redis', 'postgresql', 'mysql', 'docker'], price: 4000, category: 'AI' },
+    { id: 12, name: 'CMS Personalizado', icon: '📝', stacks: ['vue', 'nuxt', 'vuetify', 'python', 'fastapi', 'postgresql', 'mysql', 'docker'], price: 4500, category: 'Web' },
     { id: 13, name: 'PWA', icon: '📱', stacks: ['vue', 'nuxt', 'javascript', 'python', 'fastapi'], price: 3500, category: 'Web' },
-    { id: 14, name: 'Sistema Tempo Real', icon: '⚡', stacks: ['vue', 'javascript', 'python', 'fastapi', 'redis', 'postgresql'], price: 4000, category: 'Backend' }
+    { id: 14, name: 'Sistema Tempo Real', icon: '⚡', stacks: ['vue', 'javascript', 'python', 'fastapi', 'redis', 'postgresql', 'mysql'], price: 4000, category: 'Backend' },
+    { id: 15, name: 'Aplicação Frontend Genérica', icon: '🖼️', stacks: ['vue', 'nuxt', 'vuetify', 'javascript'], price: 3000, category: 'Web' },
+    { id: 16, name: 'Aplicação Backend Genérica', icon: '🔧', stacks: ['python', 'fastapi', 'postgresql', 'mysql', 'docker'], price: 3500, category: 'Backend' }
 ];
 
 const categories = ['Todos', 'Web', 'Backend', 'Mobile', 'DevOps', 'AI'];
